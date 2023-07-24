@@ -1,0 +1,30 @@
+.business-form{
+  background-color: white;
+  height: 100%;
+  padding: 10px 20px;
+  gap: 20px;
+  color: black;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.business-input{
+  border: 1;
+  border-width: 1px;
+  border-color: gray;
+  padding: 5px;
+}
+
+.register-button{
+  background-color: #08487c;
+  color: white;
+  padding: 5px;
+  border: none;
+  border-radius: 10px;
+  width: 100%;
+}

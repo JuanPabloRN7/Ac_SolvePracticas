@@ -1,0 +1,19 @@
+@import "../../style.scss";
+
+.parqueadero {
+  height: 100%;
+
+  @include themify($themes) {
+    padding: 0px;
+
+    background-color: themed("bgSoft");
+
+    @include mobile {
+      padding: 10px;
+    }
+
+    @include tablet {
+      padding: 20px;
+    }
+  }
+}

@@ -1,0 +1,55 @@
+@import "../../style.scss";
+
+.aplicaciones {
+  @include themify($themes) {
+    -webkit-box-shadow: 0px 0px 25px -10px rgba(0, 0, 0, 0.38);
+    -moz-box-shadow: 0px 0px 25px -10px rgba(0, 0, 0, 0.38);
+    box-shadow: 0px 0px 25px -10px rgba(0, 0, 0, 0.38);
+    border-radius: 0px;
+    color: themed("textColor");
+    background-color: themed("bgSoft");
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px 20px;
+
+
+    @include mobile {
+      padding: 10px;
+    }
+
+    @include tablet {
+      padding: 20px;
+    }
+  }
+
+  .container {
+    height: 100%;
+    padding: 10px 20px;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    color: black;
+
+
+    .item {
+      display: flex;
+      align-items: center;
+      padding: 10px;
+
+      img {
+        width: 60px;
+      }
+
+      span {
+        font-size: 20px;
+
+      }
+    }
+
+
+  }
+
+
+}
